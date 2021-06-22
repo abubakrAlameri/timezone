@@ -1,0 +1,18 @@
+{
+    "Gust" : {
+        "denied": {},
+        "HomeController": ["*"],
+        "RegisterController": ["loginAction","verifyAction"],
+        "BlogController": ["*"],
+        "ShopController": ["*"],
+        "RestrictedController": ["*"]
+    },
+    "LoggedIn": {
+        "denied": {
+            "RegisterController": ["loginAction" , "forgetPasswordtAction"]
+        },      
+        "RegisterController": ["logoutAction"],
+        "AdminController": ["*"]
+        
+    }
+}
