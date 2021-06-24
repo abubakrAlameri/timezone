@@ -30,8 +30,8 @@ use PayPal\Api\PaymentExecution;
 
         // Set redirect URLs
             $this->_redirectUrls = new RedirectUrls();
-            $this->_redirectUrls->setReturnUrl('http://localhost/timezone/shop/exec/')
-            ->setCancelUrl('http://localhost/timezone/shop/checkout/');
+            $this->_redirectUrls->setReturnUrl('http://timezone.great-site.net/timezone/shop/exec/')
+            ->setCancelUrl('http://timezone.great-site.net/timezone/shop/checkout/');
 
         }
    

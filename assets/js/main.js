@@ -452,6 +452,7 @@
         }
       // click counter js
       (function() {
+        console.log('test');
         window.inputNumber = function(el) {
        
 
@@ -460,6 +461,7 @@
           });
 
           function init(el) {
+            console.log(el);
             var min = el.attr('min') || false;
             var max = el.attr('max') || false;
     
@@ -490,7 +492,7 @@
         }
       })();
 
-
+  console.log('test');
   inputNumber($('.input-number'));
   
         setInterval(function () {

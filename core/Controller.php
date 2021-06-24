@@ -13,9 +13,11 @@
         protected function load_model($m)
         {
             $model = $m . 'Model';
+          
             if (class_exists($model)) {
                 $this->{$model} = new $model(strtolower($m));
             }
+           
         }
 
         public function josnResponse($response)

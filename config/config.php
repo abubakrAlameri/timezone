@@ -9,9 +9,9 @@
     define('SITE_TITLE', 'Time Zone');  // if there is no site title
 
     // we use id (127.0.0.1) instade of domin name(localhost) becuase it's faster
-    define('SERVER_INFO','mysql:host=127.0.0.1;dbname=timezone'); // in db class
-    define('USER_NAME','root');  // in db class
-    define('PASSWORD',''); // in db class
+    define('SERVER_INFO', 'mysql:host=localhost;dbname=timezone'); // in db class
+    define('USER_NAME', 'root');  // in db class
+    define('PASSWORD', ''); // in db class
     
 
     define('CURRENT_USER_SESSION_NAME', 'JDDGsdkjdhHBHBbhdbH');  // give it a random chars 

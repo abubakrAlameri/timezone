@@ -11,6 +11,8 @@
 
 
   session_start();
+
+  // dnd(ROOT);
 if (!Session::exists(GUEST))
   Session::set(GUEST, $_SERVER['REMOTE_ADDR']);
 
